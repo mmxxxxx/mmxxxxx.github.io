@@ -1,0 +1,17 @@
+baseURL = 'https://mmxxxxx.github.io/'
+languageCode = 'id_ID'
+title = 'mmxxxxx'
+
+theme = 'mytheme'
+
+[sitemap]
+    changefreq = 'monthly'
+    filename = 'sitemap.xml'
+    priority = 0.5
+
+[params]
+    poster = 'image/image.jpg'
+    video = 'video/video.mp4'
+    ogVideo = 'video/video.swf'
+    ogImage = 'image/image.jpg'
+    description = 'Could You Find A Way To Let Me Down Slowly? A Little Sympathy I Hope You Can Show Me'

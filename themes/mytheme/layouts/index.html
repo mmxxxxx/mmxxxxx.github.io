@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    <main>
+        <h1 class="visually-hidden">{{ .Site.Title }}</h1>
+        <p class="visually-hidden">{{ .Site.Params.Description }}</p>
+        <div class="container">
+            <div class="flex justify-content-center align-items-center text-center">
+                <div class="vvd">
+                    <video autoplay="true" loop poster="{{ .Site.BaseURL }}{{ .Site.Params.Poster }}" preload="auto">
+                        <source src="{{ .Site.BaseURL }}{{ .Site.Params.Video }}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="loading">
+            <div class="bg-loading">
+                <div class="img">
+                    <img class="rounded-circle" src="{{ .Site.BaseURL }}{{ .Site.Params.Poster }}" alt="" width="190"
+                        height="150">
+                </div>
+                <button class="mt-3">Click me</button>
+            </div>
+        </div>
+    </main>
+
+    {{ partial "javascript.html" . }}
+</body>
+
+</html>
