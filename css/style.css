@@ -1,0 +1,42 @@
+body {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.vvd {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border: none;
+}
+
+.loading {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 99;
+}
+
+.loading.d-none {
+    transition: all .2s ease-out;
+}
+
+.bg-loading {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
