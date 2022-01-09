@@ -3,20 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mmxxxxx.github.io/keywords/</loc>
+    <lastmod>2022-01-08T21:24:16+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mmxxxxx.github.io/keywords/mmxxxxx/</loc>
+    <lastmod>2022-01-08T21:24:16+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://mmxxxxx.github.io/</loc>
-    <lastmod>2022-01-05T19:50:20+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://mmxxxxx.github.io/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://mmxxxxx.github.io/tags/</loc>
+    <lastmod>2022-01-08T21:24:16+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
